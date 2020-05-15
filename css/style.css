@@ -1,0 +1,23 @@
+body{
+  background-image: url("../public/homero.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: linear-gradient(to left,#333,#999,#666);
+}
+/*Aplicando estilos a varias etiquetas*/
+h1,p{
+  color: #aaa;
+  text-align: center;
+  font-family: sans-serif;
+}
+/*aplicando estilos en base a la clase del elemento html*/
+.ej1{
+  background-color: #aaa;
+  height: 20px;
+  color: #fff;
+}
+.cuerpo{
+  height: 600px;
+}
